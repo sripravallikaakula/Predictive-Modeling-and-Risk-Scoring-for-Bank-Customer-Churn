@@ -157,6 +157,4 @@ This is a complete starting implementation for the project statement. For the fi
 research paper, report the actual evaluation metrics produced on your machine rather
 than writing predetermined accuracy values.
 
-Streamlit dashboard: http://127.0.0.1:8501
-FastAPI backend: http://127.0.0.1:8000
-API docs: http://127.0.0.1:8000/docs
+
