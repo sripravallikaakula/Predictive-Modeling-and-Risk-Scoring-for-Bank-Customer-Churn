@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.express as px
 
 
-API_URL="https://predictive-modeling-and-risk-scoring-for-bank-cu-production.up.railway.app"
+API_URL="https://meticulous-generosity-production-ef1b.up.railway.app"
 
 def call_api(endpoint, method="GET", payload=None):
     try:
@@ -205,7 +205,7 @@ def main():
 
     API_URL = st.sidebar.text_input(
     "FastAPI URL",
-    value="https://predictive-modeling-and-risk-scoring-for-bank-cu-production.up.railway.app",
+    value="https://meticulous-generosity-production-ef1b.up.railway.app",
 ).rstrip("/")
     
 
